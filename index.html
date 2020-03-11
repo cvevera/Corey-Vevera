@@ -8,6 +8,7 @@
     <title>Corey Vevera</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/style.css">
 </head>
 
@@ -21,17 +22,20 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" id="home-nav" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" id="about-nav" href="#">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" id="projects-nav" href="#">Projects</a>
                 </li>
             </ul>
-            <span class="navbar-text">
-                Check out my <a href="https://github.com/cvevera">Github</a>!
+            <span class="navbar-text"> 
+                <a href="mailto:cvevera@gmail.com?Subject=Let's%20Make%20Something!">cvevera@gmail.com</a>
+                <a href="https://github.com/cvevera" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                <a href="www.linkedin.com/in/corey-vevera" target="_blank"><i
+                        class="fa fa-linkedin-square fa-2x"></i></a>
             </span>
         </div>
     </nav>
@@ -40,8 +44,8 @@
             <h1 class="first-text col-12 text-center">Hi, I'm Corey</h1>
         </div>
         <div class="first-paragraph col-12 text-center">
-            <p>I'm a new web developer who is passionate about making meaningful projects that help people connect, find
-                community, and express themselves.</p>
+            <p class="homeP">I'm a new web developer who is passionate about making meaningful projects that help people <span style="color: #ff6961">connect</span>, find
+                <span style="color: #ff6961">community</span>, and <span style="color: #ff6961">express themselves</span>.</p>
         </div>
         <div class="row">
             <div class="first-button col-12 text-center">
@@ -58,91 +62,183 @@
         </div> -->
         <div class="row">
             <div class="col-12 text-center" id="projects-container">
-                <h3 class="projects-header">I'm new but love to learn! Here are some things I've made</h3>
+                <h3 class="projects-header">I'm new but love to learn! Here are some things I've made:</h3>
                 <br>
                 <div class="row">
                     <div class="col-md-3">
                         <div class="overlay-projects" id="projects-1">
-                            <img src="assets/images/nightlife-q-c-640-480-5.jpg" height="150px">
-                            <!-- <h4 class="projects" href= >Artist Venue Search</h4> -->
+                            <img src="assets/images/Screen-Recording-2020-03-09-at-1.gif" height="150px">
                             <div class="overlay">
-                                <a class="text" target="_blank" href="https://cvevera.github.io/unc_codingbootcamp_project1/">Artist Venue Search</a>
+                                <a class="text" target="_blank" href="https://mywodbook.herokuapp.com/"> WodBook Fitness
+                                    App</a>
+                                <p class="text2">Full MERN Stack App</p>
                                 <br>
-                                <!-- <a href="https://github.com/cvevera/unc_codingbootcamp_project1">Github Repo</a> -->
-                        </div>
+                                <!-- <a href="https://github.com/cvevera/Train-Scheduler">Github Repo</a> -->
+
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="overlay-projects" id="projects-2">
-                            <img src="assets/images/transport-q-c-640-480-6.jpg" height="150px">
+                            <img src="assets/images/nightlife-q-c-640-480-5.jpg" height="150px">
+                            <!-- <h4 class="projects" href= >Artist Venue Search</h4> -->
                             <div class="overlay">
-                                <a class="text" target="_blank" href="https://cvevera.github.io/Train-Scheduler/"> Train Scheduler</a>
+                                <a class="text" target="_blank"
+                                    href="https://cvevera.github.io/unc_codingbootcamp_project1/">Artist Venue
+                                    Search</a>
+                                <p class="text2">Front End API Calls</p>
                                 <br>
-                                <!-- <a href="https://github.com/cvevera/Train-Scheduler">Github Repo</a> -->
-                            
+                                <!-- <a href="https://github.com/cvevera/unc_codingbootcamp_project1">Github Repo</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="overlay-projects" id="projects-3">
+                            <img src="assets/images/image.jpg" height="150px">
+                            <div class="overlay">
+                                <a class="text" target="_blank" href="https://unccodingcampproject2.herokuapp.com/">Just
+                                    Here for the Beer</a>
+                                <p class="text2">Full Stack MVC App</p>
+                                <br>
+                                <!-- <a href="https://github.com/cvevera/GifTastic">Github Repo</a> -->
+                            </div>
                         </div>
                     </div>
                 </div>
-                    <div  class="col-md-3">
-                            <div class="overlay-projects" id="projects-2">
+                <br>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="overlay-projects" id="projects-4">
+                            <img src="assets/images/1280px-Star_Wars_Logo.svg.png"
+                                height="150px">
+                            <div class="overlay">
+                                <a class="text" target="_blank"
+                                    href="https://cvevera.github.io/GifTastic/">GifTastic</a>
+                                <p class="text2">APIs and JQuery DOM</p>
+                                <br>
+                                <!-- <a href="https://github.com/cvevera/GifTastic">Github Repo</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="overlay-projects" id="projects-5">
+                            <img src="assets/images/147767-tv-feature-what-order-should-you-watch-all-the-star-wars-films-image1-1wdfjceytb.jpg"
+                                height="150px">
+                            <div class="overlay">
+                                <a class="text" target="_blank" href="https://cvevera.github.io/Clicky-Game/">Clicky
+                                    Game</a>
+                                <p class="text2">A Star Wars Game built in React</p>
+                                <br>
+                                <!-- <a href="https://github.com/cvevera/GifTastic">Github Repo</a> -->
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <div class="overlay-projects" id="projects-6">
+                            <img src="assets/images/ilya-mashkov-_qxbJUr9RqI-unsplash.jpg" height="150px">
+
+                            <div class="overlay">
+                                <p class="text2"> Mysql Database</p>
+                                <a class="text" target="_blank" href="https://cvevera-burger-app.herokuapp.com/">Burger
+                                    MySQL App</a>
+                                <br>
+                                <!-- <a href="https://github.com/cvevera/GifTastic">Github Repo</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+
+
+                    <div class="col-md-3">
+                        <!-- <div class="overlay-projects" id="projects-4">
+                            <img src="assets/images/image.jpg" height="150px">
+                            <div class="overlay">
+                                <a class="text" target="_blank" href="https://unccodingcampproject2.herokuapp.com/">Just
+                                    Here for the Beer</a>
+                                <p class="text2">Full Stack MVC Beer Review App</p>
+                                <br>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 offset-3">
+                            <div class="overlay-projects" id="projects-6">
                                 <img src="assets/images/parks-and-rec (1).jpg" height="150px">
                                 <div class="overlay">
-                                    <a class="text" target="_blank" href="https://cvevera.github.io/TriviaGame/"> Trivia Game</a>
+                                    <a class="text" target="_blank" href="https://cvevera.github.io/TriviaGame/"> Trivia
+                                        Game</a>
+                                    <p class="text2">JQuery and Javascript Logic</p>
                                     <br>
                                     <!-- <a href="https://github.com/cvevera/Train-Scheduler">Github Repo</a> -->
                                 </div>
                             </div>
                         </div>
+                    <div class="col-md-3">
+                        <!-- <div class="overlay-projects" id="projects-4">
+                            <img src="assets/images/ilya-mashkov-_qxbJUr9RqI-unsplash.jpg" height="150px">
 
+                            <div class="overlay">
+                                <p class="text2"> Mysql Database</p>
+                                <a class="text" target="_blank" href="https://cvevera-burger-app.herokuapp.com/">Burger
+                                    MySQL App</a>
+                                <br>
+                            </div> -->
+                        </div>
+                    </div>
+                    <br>
                 </div>
                 <br>
+            </div>
+
+        </div>
+        <br>
+
+    </div>
+    <div class="container" id="aboutMe">
+        <div class="wrapper aboutMe">
             <div class="row">
-                <div class="col-md-3">
-                    <div class="overlay-projects" id="projects-4">
-                        <img src="assets/images/147767-tv-feature-what-order-should-you-watch-all-the-star-wars-films-image1-1wdfjceytb.jpg"
-                            height="150px">
-                            <div class="overlay">
-                            <a class="text" target="_blank" href="https://cvevera.github.io/GifTastic/">GifTastic</a>
-                            <p class="text2">APIs and JQuery DOM</p>
-                            <br>
-                            <!-- <a href="https://github.com/cvevera/GifTastic">Github Repo</a> -->
+                <div class="col-3">
+                    <img id="headshot" src="assets/images/IMG_0840.jpg" alt="Corey Vevera">
+                </div>
+                <div class="col-6 offset-2">
+                    <p>Hi. I'm Corey, a nerdy musician turned web developer. I love the feedback loop of finding a problem, working to solve it, and finding victory (and then finding a new problem!). I care about creating quality experiences and working to bring health and wholeness to whatever team I create with.</p>
+                        <h5>Technologies</h5>  
+                        <div class="row" id="technologies">
+                            <div class="col-6">
+                                <ul>
+                                    <li>Javascript</li>
+                                    <li>JQuery</li>
+                                    <li>CSS & Bootstrap</li>
+                                    <li>React.js</li>
+                                </ul>
                             </div>
+                            <div class="col-6">
+                                <ul>
+                                    <li>MongoDB & MySQL</li>
+                                    <li>Node.js</li>
+                                    <li>Express & Handlebars</li>
+                                    <li>Javascript</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-12">
+                                View my  <a href="assets/images/CVevera Resume_PDF (4).pdf" target="_blank" type="application/pdf" width="100%" height="600px">Resume! </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                        <div class="overlay-projects" id="projects-4">
-                            <img src="assets/images/image.jpg"
-                                height="150px">
-                                <div class="overlay">
-                                <a class="text" target="_blank" href="https://unccodingcampproject2.herokuapp.com/">Just Here for the Beer</a>
-                                <p class="text2" >Full Stack MVC App</p>
-                                <br>
-                                <!-- <a href="https://github.com/cvevera/GifTastic">Github Repo</a> -->
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                            <div class="overlay-projects" id="projects-4">
-                                <img src="assets/images/ilya-mashkov-_qxbJUr9RqI-unsplash.jpg"
-                                    height="150px">
-                                
-                                    <div class="overlay">
-                                        <p class="text2"> Mysql Database</p>
-                                    <a class="text" target="_blank" href="https://cvevera-burger-app.herokuapp.com/">Burger MySQL App</a>
-                                    <br>
-                                    <!-- <a href="https://github.com/cvevera/GifTastic">Github Repo</a> -->
-                                    </div>
-                            </div>
-                        </div>
-                        <br>
             </div>
-            <br>
-        </div>
-        
+        </div>  
     </div>
-    <br>
+
     </div>
-    </div>
+
     <!-- <script src="jquery-3.4.1.min.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

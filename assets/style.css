@@ -1,5 +1,10 @@
 body {
-    background-image: url("images/yellow-bokeh-photo-949587 (1).jpg")
+    background-image: url("images/blur-blurred-blurred-background-bokeh-1187974.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .navbar {
     background-color: rgb(128,128,128,0.5) !important;
@@ -7,7 +12,11 @@ body {
 
 .btn {
     color: white;
-    background-color: rgb(128,128,128,0.3) !important;
+    background-color: rgb(128,128,128,0.6) !important;
+}
+.btn:hover {
+  color: white !important;
+  background-color: rgba(194, 191, 191, 0.39);
 }
 h3 {
     margin-right: 180px;
@@ -112,12 +121,15 @@ h3 {
   .first-paragraph {
     font-size: 2rem;
     position: absolute;
-    left: 2.5rem;
+    left: 385px;
     top: 55%;
     opacity: 1;
     animation-name: bottomFadeOut;
     animation-duration: 5s;
     color: white;
+  }
+  .homeP {
+    width: 50%;
   }
   .first-button {
     font-size: 2rem;
@@ -137,6 +149,9 @@ h3 {
     width: 375px;
     height: 30px;
 
+}
+#projects-1 {
+  background-color: #2D325A;
 }
 .portfolio-links {
 color: white;
@@ -165,6 +180,11 @@ img {
     height: 275px;
     width: 350px;
 }
+#headshot {
+  height: 400px;
+  width: 325px;
+  padding: 20px;
+}
 
 .overlay {
     position: absolute;
@@ -184,7 +204,7 @@ img {
   font-size: 20px;
   position: absolute;
   overflow: hidden;
-  top: 50%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -192,10 +212,10 @@ img {
   .text2 {
   white-space: nowrap; 
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   position: absolute;
   overflow: hidden;
-  top: 60%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -214,3 +234,27 @@ a:hover {
     color: lightgrey;
     text-decoration: none;
 }
+
+.aboutMe{
+  display: inline-block;
+  
+}
+
+#aboutMe{
+  display: none;
+  color: white;
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  font-size: 1.5rem;
+  animation: topFadeOutAbout;
+  animation-duration: 5s;
+  background-color: rgb(128,128,128,0.5);
+  padding: 15px;
+  text-align: center;
+  margin: auto;
+}
+#technologies {
+  font-size: 16px;
+}
+
